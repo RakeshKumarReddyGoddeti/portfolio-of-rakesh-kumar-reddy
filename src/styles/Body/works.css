@@ -1,0 +1,171 @@
+.works {
+    padding: 50px 20px 50px 80px;
+}
+
+.works h1 {
+    font-family: "Roboto Slab", serif;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 25px auto;
+}
+
+.works h1:after {
+    content: "";
+    position: absolute;
+    margin: 32px 40px;
+    width: 200px;
+    height: 5px;
+    background-color: #1b74e4;
+    /* transform: translatey(-50%); */
+    border-radius: 5px;
+}
+
+
+.works_column h2 {
+    margin-top: 80px;
+    font-size: 45px;
+}
+
+.works_column ol {
+   padding-left: 0;
+   margin-top: 20px;
+}
+
+.works_column ol li {
+    list-style-type: none;
+}
+
+.button_react_js, .button_jQuery, .button_javaScript, .button_bootstrap, .button_tailwind_css, .button_sass, .button_git, .button_drupal10, .button_core_java {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: none;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.button_react_js input[type="range"]{
+    width: 80%;
+    margin: 0 auto;
+    accent-color: #06b6d4;
+}
+
+.button_jQuery input[type="range"] {
+    width: 80%;
+    margin: 0 auto;
+    accent-color: rgb(79, 129, 189);
+}
+
+.button_javaScript input[type="range"] {
+    width: 80%;
+    margin: 0 auto;
+    accent-color: #f0db4f;
+}
+
+.button_bootstrap input[type="range"] {
+    width: 80%;
+    margin: 0 auto;
+    accent-color: #563d7c;
+}
+
+.button_tailwind_css input[type="range"] {
+    width: 80%;
+    margin: 0 auto;
+    accent-color: oklch(.746 .16 232.661);
+}
+
+.button_sass input[type="range"] {
+    width: 80%;
+    margin: 0 auto;
+    accent-color: #CD6799;
+}
+
+.button_git input[type="range"] {
+    width: 80%;
+    margin: 0 auto;
+    accent-color: #F1502F;
+}
+
+.button_drupal10 input[type="range"] {
+    width: 80%;
+    margin: 0 auto;
+    accent-color: #066baa;
+}
+
+.button_core_java input[type="range"] {
+    width: 80%;
+    margin: 0 auto;
+    accent-color: #066baa;
+}
+
+/* .works_column ol li .button_react_js input[type="range"]::-webkit-slider-runnable-track {
+    background: red;
+} */
+
+.button_react_js .skill_range, .button_jQuery .skill_range, .button_javaScript .skill_range, .button_bootstrap .skill_range, .button_tailwind_css .skill_range, .button_sass .skill_range, .button_git .skill_range, .button_drupal10 .skill_range, .button_core_java .skill_range {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+
+.button_react_js h3, .button_jQuery h3, .button_javaScript h3, .button_bootstrap h3, .button_tailwind_css h3, .button_sass h3, .button_git h3, .button_drupal10 h3, .button_core_java h3 {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 35px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 576px) {
+    .works {
+        padding: 30px 20px;
+    }
+    
+    .works h1 {
+        font-size: 30px;
+        margin: 10px auto;
+    }
+    
+    .works h1:after {
+        margin: auto;
+        width: 100px;
+        right: 40px;
+    }
+    
+    
+    .works_column h2 {
+        margin: 30px 0 0 0;
+        font-size: 30px;
+    }
+
+    .works_column h2 span svg {
+        font-size: 32px;
+        margin-bottom: auto;
+    }
+    
+    .works_column ol {
+       margin-top: 0px;
+    }
+
+    button .skill_range h3 span svg {
+        font-size: 3rem;
+    }
+    
+    .button_react_js, .button_jQuery, .button_javaScript, .button_bootstrap, .button_tailwind_css, .button_sass, .button_git, .button_drupal10, .button_core_java {
+        padding: 15px;
+    }
+    
+    .button_react_js .skill_range, .button_jQuery .skill_range, .button_javaScript .skill_range, .button_bootstrap .skill_range, .button_tailwind_css .skill_range, .button_sass .skill_range, .button_git .skill_range, .button_drupal10 .skill_range, .button_core_java .skill_range {
+        margin-bottom: 5px;
+    }
+    
+    
+    .button_react_js h3, .button_jQuery h3, .button_javaScript h3, .button_bootstrap h3, .button_tailwind_css h3, .button_sass h3, .button_git h3, .button_drupal10 h3, .button_core_java h3 {
+        font-size: 25px;
+    }
+}

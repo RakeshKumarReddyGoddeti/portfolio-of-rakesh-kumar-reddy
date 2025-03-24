@@ -1,0 +1,235 @@
+.contact {
+    padding: 50px 80px;
+    /* border: 3px solid red; */
+}
+
+.contact_section input {
+    position: relative;
+    transition: transform 0.5s;
+}
+
+.contact_section input:focus {
+    transform: translateY(20px);
+}
+
+.contact h1 {
+    font-family: "Roboto Slab", serif;
+    font-size: 60px;
+    font-weight: 600;
+    margin: 25px auto;
+}
+
+.contact h1:after {
+    content: "";
+    position: absolute;
+    margin: 40px 40px;
+    width: 200px;
+    height: 5px;
+    background-color: #1b74e4;
+    /* transform: translatey(-50%); */
+    border-radius: 5px;
+}
+
+.contact .contact_section {
+    border-radius: 25px;
+    padding: 50px;
+    background-color: #f8fbfb;
+}
+
+.contact .contact_section p {
+    font-size: 40px;
+    color: #44566c;
+}
+
+.contact .contact_section h2 {
+    margin-top: 25px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+form {
+    margin-top: 60px;
+}
+
+form .name {
+    display: flex;
+    flex-direction: column;
+}
+
+.name label {
+    font-size: 25px;
+    color: rgb(254, 120, 120);
+}
+
+form .name input[type="text"]{
+    outline: none;
+    border: none;
+    font-size: 30px;
+    height: 50px;
+    background: transparent;
+    border-bottom: 2px solid rgb(254, 120, 120);
+}
+
+form .mobile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.mobile label {
+    font-size: 25px;
+    color: rgb(27, 116, 228);
+}
+
+form .mobile input[type="tel"] {
+    outline: none;
+    border: none;
+    font-size: 30px;
+    height: 50px;
+    background: transparent;
+    border-bottom: 2px solid rgb(27, 116, 228);
+}
+
+form .email {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.email label {
+    font-size: 25px;
+    color: rgb(206, 101, 243);
+}
+
+form .email input[type="email"] {
+    outline: none;
+    border: none;
+    font-size: 30px;
+    height: 50px;
+    background: transparent;
+    border-bottom: 2px solid rgb(206, 101, 243);
+}
+
+form .message {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.message label {
+    font-size: 25px;
+    color: purple;
+}
+
+form .message input[type="textarea"] {
+    outline: none;
+    border: none;
+    font-size: 30px;
+    height: 50px;
+    background: transparent;
+    border-bottom: 2px solid purple;
+}
+
+.button_submit {
+    border: none;
+    padding: 15px 60px;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-top: 60px;
+    border: 1.5px solid black;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 576px) {
+    .contact {
+        padding: 30px 20px;
+    }
+    
+    .contact h1 {
+        font-size: 40px;
+        margin: 20px auto;
+    }
+    
+    .contact h1:after {
+        margin: 25px 40px;
+        width: 160px;
+    }
+    
+    .contact .contact_section {
+        padding: 15px 25px 20px 25px;
+    }
+    
+    .contact .contact_section p {
+        font-size: 24px;
+        color: #44566c;
+    }
+    
+    .contact .contact_section h2 {
+        margin-top: 25px;
+        font-size: 20px;
+    }
+    
+    form {
+        margin-top: 40px;
+    }
+    
+    form .name {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .name label {
+        font-size: 20px;
+    }
+
+    form .name input[type="text"]{
+        font-size: 25px;
+        height: 30px;
+    }
+    
+    form .mobile {
+        margin-top: 35px;
+    }
+
+    .mobile label {
+        font-size: 20px;
+    }
+    
+    form .mobile input[type="tel"] {
+        font-size: 25px;
+        height: 30px;
+    }
+    
+    form .email {
+        margin-top: 35px;
+    }
+    
+    .email label {
+        font-size: 20px;
+    }
+    
+    form .email input[type="email"] {
+        font-size: 25px;
+        height: 30px;
+    }
+    
+    form .message {
+        margin-top: 35px;
+    }
+    
+    .message label {
+        font-size: 20px;
+    }
+    
+    form .message input[type="textarea"] {
+        font-size: 25px;
+        height: 30px;
+    }
+    
+    .button_submit {
+        padding: 10px 30px;
+        font-size: 25px;
+        margin-top: 40px;
+    }
+}

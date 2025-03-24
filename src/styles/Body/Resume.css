@@ -1,0 +1,383 @@
+.Resume_Page {
+    padding: 50px 80px;
+}
+
+.Resume_Page h1 {
+    font-family: "Roboto Slab", serif;
+    font-size: 60px;
+    font-weight: 600;
+    margin: 25px auto;
+}
+
+.Resume_Page h1:after {
+    content: "";
+    position: absolute;
+    margin: 40px 40px;
+    width: 200px;
+    height: 5px;
+    background-color: #1b74e4;
+    /* transform: translatey(-50%); */
+    border-radius: 5px;
+}
+
+.summary{
+    width: 100%;
+    margin: 50px 0;
+}
+
+.summary h2, .education h2, .work_experience h2, .project_work h2 {
+    font-size: 40px;
+    margin: 20px 0 10px 0;
+}
+
+.summary p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #44566c;
+    line-height: 1.7;
+    border-radius: 25px;
+    padding: 15px 30px;
+    margin: 20px 50px 30px 0;
+    background-color: #f1e6fb;
+}
+
+/* Graduation in Resume */
+
+.graduation {
+    border-radius: 25px;
+    padding: 30px 20px 20px 20px;
+    margin: 20px 50px 50px 0;
+    background-color: #eef5fa;
+}
+
+.graduation li {
+    list-style-type: disc;
+    line-height: 1.7;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(39, 38, 38);
+}
+
+.graduation li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.graduation li .college {
+    font-size: 25px;
+}
+
+.graduation li .department {
+    display: flex;
+    justify-content: space-between;
+}
+
+.graduation li .cgpa {
+    margin-top: 8px;
+}
+
+
+/* Work Experience */
+
+.work_experience {
+    width: 100%;
+    margin: 50px 0;
+}
+
+.work_experience .experience {
+    border-radius: 25px;
+    padding: 30px 20px 20px 35px;
+    margin: 20px 50px 50px 0;
+    background-color: #eef5fa;
+}
+
+.work_experience .experience .date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work_experience .experience h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.work_experience .experience h4 {
+    font-size: 22px;
+}
+
+.work_experience .experience ul {
+    padding: 0 0 5px 25px;
+}
+
+/* Project Work */
+
+.project_work {
+    margin: 20px 0;
+}
+
+.project_work .project {
+    border-radius: 25px;
+    padding: 30px 20px 20px 35px;
+    margin: 20px 50px 50px 0;
+    background-color: #eef5fa;
+}
+
+.project_work .project .date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project_work .project h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.project_work .project li {
+    margin-bottom: 10px;
+}
+
+.project_work .project p {
+    line-height: 1.7;
+    color: #44566c;
+}
+
+
+/* Skills */
+
+.Resume_Page button {
+    padding: 15px 30px;
+}
+
+.Resume_Page button .skill_range span.icon svg{
+    font-size: 3.5rem;
+}
+
+.Resume_Page .works_column h2 {
+    margin-top: 0;
+    font-size: 40px;
+}
+
+.Resume_Page .works_column h2 span svg {
+    font-size: 45px;
+    margin: 0 15px 10px 0;
+}
+
+.Resume_Page .works_column ol {
+    margin-top: 0;
+}
+
+.Resume_Page .works_column button .skill_range {
+    margin-bottom: 5px;
+}
+
+.Resume_Page .works_column h3 {
+    font-size: 30px;
+}
+
+/* Certifications */
+
+.certifications h2 {
+    font-size: 40px;
+    margin: 20px 0 10px 0;
+}
+
+.certifications h2 span svg {
+    font-size: 60px;
+    margin: 0 5px 20px 0;
+}
+
+.certificate {
+    border-radius: 25px;
+    padding: 30px 20px 20px 35px;
+    margin: 20px 50px 50px 0;
+    background-color: #eef5fa;
+}
+
+.certificate ul {
+    margin-top: 0;
+}
+
+.certificate ul p {
+    margin-bottom: 25px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 576px) {
+    .Resume_Page {
+        padding: 30px 20px;
+    }
+    
+    .Resume_Page h1 {
+        font-size: 40px;
+        margin: 20px auto;
+    }
+    
+    .Resume_Page h1:after {
+        margin: 25px 40px;
+        width: 160px;
+    }
+    
+    .summary{
+        margin: 40px 0 0px 0;
+    }
+    
+    .summary h2, .education h2, .work_experience h2, .project_work h2 {
+        font-size: 28px;
+        margin: 0px 0 10px 0;
+    }
+    
+    .summary p {
+        font-size: 20px;
+        padding: 15px 20px;
+        margin: 20px 0px 30px 0;
+    }
+    
+    /* Graduation in Resume */
+    
+    .graduation {
+        padding: 30px 10px 10px 0px;
+        margin: 0px 0px 30px 0;
+    }
+    
+    .graduation li {
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+    }
+    
+    .graduation li .college {
+        font-size: 19px;
+    }
+    
+    .department p {
+        font-size: 18px;
+    }
+    
+    .graduation li .cgpa {
+        font-size: 22px;
+    }
+    
+    
+    /* Work Experience */
+    
+    .work_experience {
+        margin: 0;
+    }
+    
+    .work_experience .experience {
+        padding: 30px 10px 0 10px;
+        margin: 0;
+    }
+    
+    .work_experience .experience .date h3 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    
+    .work_experience .experience li {
+        margin-bottom: 10px;
+    }
+    
+    .work_experience .experience .date p {
+        margin-top: 3px;
+        font-size: 14px;
+    }
+
+    .work_experience .experience p {
+        font-size: 16px;
+    }
+    
+    
+    /* Project Work */
+    
+    .project_work {
+        margin: 25px 0;
+    }
+    
+    .project_work .project {
+        padding: 30px 10px 0 10px;
+        margin: 0;
+    }
+    
+    .project_work .project h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .project_work .project ul {
+        margin-top: 0;
+        padding-left: 20px;
+        padding: 0 0 5px 25px;
+    }
+
+    .project_work .project .date p {
+        margin-top: 2px;
+        font-size: 14px;
+    }
+    
+    .project_work .project p {
+        font-size: 16px;
+    }
+    
+    
+    /* Skills */
+
+    .Resume_Page .works_column h2 span svg {
+        font-size: 32px;
+        margin: auto 15px auto 0;
+    }
+
+    .Resume_Page .works_column h2 {
+        margin-top: 0;
+        font-size: 35px;
+    }
+    
+    .Resume_Page button {
+        padding: 15px;
+    }
+    
+    .Resume_Page button .skill_range span.icon svg {
+        font-size: 3rem;
+    }
+    
+    .Resume_Page .works_column ol {
+        margin-top: -10px;
+        padding: 0 10px;
+    }
+    
+    .Resume_Page .works_column button .skill_range {
+        margin-bottom: 5px;
+    }
+    
+    .Resume_Page .works_column h3 {
+        font-size: 25px;
+    }
+    
+    /* Certifications */
+    
+    .certifications h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+    
+    .certifications h2 span svg {
+        font-size: 42px;
+        margin: 7px 5px 20px 0;
+    }
+    
+    .certificate {
+        padding: 20px 10px 10px 10px;
+        margin: 0;
+    }
+    
+    .certificate ul {
+        padding-left: 25px;
+    }
+    
+    .certificate ul p {
+        margin-bottom: 22px;
+    }
+}

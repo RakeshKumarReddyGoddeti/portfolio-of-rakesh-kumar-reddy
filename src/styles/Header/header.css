@@ -1,0 +1,212 @@
+header {
+    /* width: max-content; */
+    position: sticky;
+    top: 0;
+    display: flex;
+    z-index: 999;
+    background: linear-gradient(130deg, #fff, #e3dfff 12.12%, #cfdff9);
+}
+
+/* @media only screen and (min-width: 1200px) {
+    header {
+        width: max-content !important;
+    }
+} */
+
+.profile_pic {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    margin: 0 10px;
+}
+
+.logo_name {
+    padding: 10px 10px;
+    margin: 0 10px;
+    font-weight: 600;
+    font-size: 33px;
+}
+
+/* For Menus */
+.menus {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    margin-left: auto;
+    color: rgb(33, 32, 32);
+    font-family: 'Poppins', sans-serif;
+    /* background-color: yellow; */
+}
+
+.navlink {
+    padding: 10px 15px;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(54, 52, 52);
+    /* background-color: pink; */
+}
+
+
+/* Contact me */
+
+.login{
+    display: flex;
+    margin-left: auto;
+    margin-right: 30px;
+    /* border: 2px solid red; */
+}
+.button_contact_me {
+    color: white;
+    background-color: #eb0249;
+    /* background-color: #5046e5; */
+    margin: auto 15px;
+    padding: 10px 22px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+}
+
+.button_contact_me:hover {
+    background-color: white;
+    color: #eb0249;
+}
+
+.button_contact_me:hover .loginIcon {
+    color: #eb0249;
+}
+
+header .menu-btn {
+    display: none;
+}
+
+@media only screen and (max-width: 576px) {
+    header {
+        height: 70px;
+    }
+
+    .menus, .login {
+        display: none;
+    }
+
+    header .profile_pic img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .logo_name {
+        padding: 10px 10px;
+        font-size: 20px;
+    }
+
+    header .menu-btn {
+        position: relative;
+        display: inline-flex;
+        width: 40px;
+        height: 40px;
+        margin: auto;
+        border-radius: 50%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: 1s;
+        overflow: hidden;
+        background: #1b74e4;
+    }
+
+    header .menu-btn span:first-child {
+        transform: translateY(-5px);
+    }
+
+    header .menu-btn span {
+        position: absolute;
+        width: 17px;
+        height: 2px;
+        background-color: white;
+        border-radius: 2px;
+        transition: .5s;
+    }
+
+    header .menu-btn.active span {
+        width: 20px;
+    }
+
+    header .menu-btn span:nth-child(2) {
+        transform: translateY(5px);
+    }
+
+    .menu-btn.active span:first-child {
+        transform: rotate(45deg);
+    }
+
+    .menu-btn.active span:nth-child(2) {
+        transform: rotate(-45deg);
+    }
+
+    .menu-btn.active span:nth-child(3) {
+        transform: translateX(30px);
+    }
+
+    .mobile_menu.active {
+        transform: scaleY(1);
+    }
+
+    .mobile_menu {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        left: 0;
+        width: 90%;
+        height: fit-content;
+        z-index: 5;
+        transition: .5s;
+        transform-origin: top;
+        margin: 10px auto;
+        border-radius: 15px;
+        background-color: white;
+        transform: scaleY(0);
+    }
+    
+    header .Body_Menus.mobile {
+        padding: 20px;
+        margin: 0;
+        border-radius: 25px;
+        background-color: white;
+    }
+
+    header .Body_Menus.mobile li {
+        margin-bottom: 10px;
+        justify-content: start;
+        background-color: white;
+    }
+
+    header .Body_Menus.mobile li a {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: fit-content;
+        padding: 5px 0;
+    }
+
+    header .Body_Menus.mobile li a span svg{
+        font-size: 26px;
+        margin: auto 20px 5px 20px;
+    }
+
+    header .Body_Menus.mobile li a.active {
+        color: #1b74e4;
+    }
+
+    header .Body_Menus.mobile li a.active span svg,
+    header .Body_Menus.mobile li a.active span svg path,
+    header .Body_Menus.mobile li a.active span svg rect {
+        fill: #1b74e4;
+    }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+    .menus {
+        display: none;
+    }
+}

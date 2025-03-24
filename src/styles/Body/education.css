@@ -1,0 +1,141 @@
+.education_section {
+    padding: 50px 20px 50px 80px;
+}
+
+.education_section h1 {
+    font-family: "Roboto Slab", serif;
+    font-size: 60px;
+    font-weight: 600;
+    margin: 25px auto;
+}
+
+.education_section h1:after {
+    content: "";
+    position: absolute;
+    margin: 40px 40px;
+    width: 200px;
+    height: 5px;
+    background-color: #1b74e4;
+    /* transform: translatey(-50%); */
+    border-radius: 5px;
+}
+
+/* Graduation in Resume */
+
+.education_column {
+    margin-top: 50px;
+}
+
+.graduation_section {
+    border-radius: 25px;
+    padding: 30px 20px 20px 20px;
+    margin: 20px 50px 50px 0;
+    background-color: #eef5fa;
+}
+
+.graduation_section li {
+    list-style-type: disc;
+    line-height: 1.7;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(39, 38, 38);
+}
+
+.graduation_section li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.graduation_section li .college {
+    font-size: 25px;
+}
+
+.graduation_section li .department {
+    display: flex;
+    justify-content: space-between;
+}
+
+.graduation_section li .cgpa {
+    margin-top: 8px;
+}
+
+.achievements {
+    font-weight: 600;
+    margin-top: 35px;
+}
+
+ul {
+    margin-top: 25px;
+}
+
+li.list {
+    margin-bottom: 5px;
+    border-bottom: none;
+    padding-bottom: 0;
+    line-height: 2;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 576px) {
+    .education_section {
+        padding: 30px 20px;
+    }
+    
+    .education_section h1 {
+        font-size: 36px;
+        margin: 20px auto;
+    }
+    
+    .education_section h1:after {
+        margin: 25px 20px;
+        width: 160px;
+    }
+
+    .education_section h2 {
+        margin-bottom: 0;
+    }
+    
+    /* Graduation in Resume */
+
+    .education_section .education_column h2 span svg {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    
+    .education_column {
+        margin-top: 0;
+    }
+    
+    .graduation_section {
+        padding: 30px 10px 10px 0px;
+        margin: 0px 0px 10px 0;
+    }
+    
+    .graduation_section li .college {
+        font-size: 19px;
+    }
+
+    .department p {
+        font-size: 18px;
+    }
+
+    h4.cgpa {
+        font-size: 22px;
+    }
+    
+    .achievements {
+        margin-top: 25px;
+    }
+    
+    .graduation_section ul {
+        margin-top: 0;
+        padding-left: 15px;
+    }
+    
+    li.list p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}

@@ -7,7 +7,7 @@ import "./styles/mainStyles.jsx";
 import GlobalStyles from './styles/mainStyles.jsx';
 
 import Home from './Components/Pages/Home.jsx';
-import About_page_content from './Components/Molecules/about_page_content.jsx';
+import About_page_content from './Components/Molecules/About_page_content.jsx';
 import Resume from './Components/Molecules/Resume.jsx';
 import Education from './Components/Molecules/Education.jsx';
 import Works from './Components/Molecules/Works.jsx';

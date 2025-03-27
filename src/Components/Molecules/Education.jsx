@@ -7,10 +7,10 @@ import "../../styles/Body/education.css";
 
 
 const StyledUniversityIcon = styled(FaUniversity)`
-  font-size: 50px;
+  font-size: 40px;
   position: relative;
   bottom: 8px;
-  margin: 0 15px 15px 0;
+  margin: 0 15px 5px 0;
   color: rgb(28, 156, 234);
 `;
 

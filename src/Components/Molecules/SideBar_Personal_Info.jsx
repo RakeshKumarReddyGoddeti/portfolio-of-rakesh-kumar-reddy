@@ -16,14 +16,13 @@ import "../../styles/Body/SideBar_Personal_Info.css";
 
 const Img = styled.img`
     display: block;
-    width: 75%;
-    height: 350px;
+    width: 70%;
     border-radius: 30px;
-    margin: -250px auto 21px;
+    margin: -200px auto 21px;
     @media (max-width: 576px) {
-        width: 75%;
+        width: 70%;
         height: auto;
-        margin: -10px auto 5px auto;
+        margin: -200px auto 5px auto;
     }
     /* @media (max-width: 992px) {
         width: 250px;

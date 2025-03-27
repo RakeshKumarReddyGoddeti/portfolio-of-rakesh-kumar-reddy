@@ -1,10 +1,10 @@
 .sideBar_Personal_Info {
     position: sticky;
     top: 350px;
-    width: 460px;
+    /* width: 25%; */
     height: fit-content;
-    padding: 50px 40px;
-    margin: 350px 40px 150px 40px;
+    padding: 50px 20px;
+    margin: 350px 15px 80px 30px;
     /* border: 3px solid red; */
     border-radius: 30px;
     background-color: white;
@@ -18,16 +18,16 @@
 
 .social_media h1 {
     font-family: "Roboto Slab", serif;
-    font-size: 37px;
-    margin: 15px 0 20px 0;
+    font-size: 30px;
+    margin: 0 0 15px 0;
     font-weight: 599;
 }
 
 .button_role {
     color: black;
     background-color: #f3f6f6;
-    padding: 8px 18px;
-    font-size: 25px;
+    padding: 5px 18px;
+    font-size: 20px;
     border-radius: 10px;
     border: none;
 }
@@ -47,7 +47,7 @@
     color: rgb(23, 115, 234);
     font-size: 30px;
     border-radius: 15px;
-    padding: 2px 12px 9px 12px;
+    padding: 0px 10px 5px 10px;
     margin: 0 10px;
     border: none;
 }
@@ -55,7 +55,7 @@
     color: rgb(225, 42, 114);
     font-size: 30px;
     border-radius: 15px;
-    padding: 2px 12px 9px 12px;
+    padding: 0px 10px 5px 10px;
     margin: 0 10px;
     border: none;
 }
@@ -63,7 +63,7 @@
     color: rgb(20, 70, 121);
     font-size: 30px;
     border-radius: 15px;
-    padding: 2px 12px 9px 12px;
+    padding: 0px 10px 5px 10px;
     margin: 0 10px;
     border: none;
 }
@@ -71,7 +71,7 @@
     color: rgb(28, 156, 234);
     font-size: 30px;
     border-radius: 15px;
-    padding: 2px 12px 9px 12px;
+    padding: 0px 10px 5px 10px;
     margin: 0 10px;
     border: none;
 }
@@ -98,8 +98,8 @@
 
 /* Personal Contact information like Phone number, email, location */
 .personal_contact {
-    padding: 15px 30px;
-    margin: 30px 0;
+    padding: 10px 15px;
+    margin: 5px 0;
     background-color: #f3f6f6;
     border-radius: 20px;
 }
@@ -115,9 +115,9 @@
 }
 
 .icons {
-    font-size: 40px;
+    font-size: 32px;
     border-radius: 15px;
-    padding: 0px 15px 8px 15px;
+    padding: 0px 12px 8px 12px;
     margin: 0 20px 0 0px;
     background-color: white;
     border: none;
@@ -154,7 +154,7 @@
 }
 
 span {
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(103, 98, 98);
 }
 p.gmailText {
@@ -164,7 +164,7 @@ p.gmailText {
 
 p {
   margin: 0;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 /* For Download Resume */
@@ -172,8 +172,8 @@ p {
 .download_cv {
     display: block;
     margin: 40px auto;
-    font-size: 30px;
-    padding: 20px 40px;
+    font-size: 25px;
+    padding: 5px 30px 10px 30px;
     border-radius: 15px;
     border: none;
     background-color: #1b74e4;
@@ -198,7 +198,7 @@ a {
     .sideBar_Personal_Info {
         width: auto;
         position: static;
-        margin: 100px 20px 50px 20px;
+        margin: 200px 20px 50px 20px;
         padding: 50px 25px 20px 25px;
     }
     
@@ -275,8 +275,8 @@ a {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+/* @media only screen and (min-width: 768px) and (max-width: 992px) {
     .sideBar_Personal_Info {
         width: 55%;
     }
-}
+} */

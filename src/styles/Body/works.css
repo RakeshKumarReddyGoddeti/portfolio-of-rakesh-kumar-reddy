@@ -1,10 +1,11 @@
 .works {
-    padding: 50px 20px 50px 80px;
+    /* padding: 50px 20px 50px 80px; */
+    padding: 30px 40px;
 }
 
 .works h1 {
     font-family: "Roboto Slab", serif;
-    font-size: 50px;
+    font-size: 42px;
     font-weight: 600;
     margin: 25px auto;
 }
@@ -12,7 +13,7 @@
 .works h1:after {
     content: "";
     position: absolute;
-    margin: 32px 40px;
+    margin: 25px 40px;
     width: 200px;
     height: 5px;
     background-color: #1b74e4;
@@ -22,13 +23,12 @@
 
 
 .works_column h2 {
-    margin-top: 80px;
+    margin-top: 45px;
     font-size: 45px;
 }
 
 .works_column ol {
    padding-left: 0;
-   margin-top: 20px;
 }
 
 .works_column ol li {
@@ -40,7 +40,7 @@
     flex-direction: column;
     width: 100%;
     border: none;
-    padding: 30px;
+    padding: 20px;
     border-radius: 25px;
 }
 
@@ -108,15 +108,15 @@
     align-items: center;
     justify-content: space-between;
     font-size: 35px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 
 .button_react_js h3, .button_jQuery h3, .button_javaScript h3, .button_bootstrap h3, .button_tailwind_css h3, .button_sass h3, .button_git h3, .button_drupal10 h3, .button_core_java h3 {
     display: inline-flex;
     align-items: center;
-    gap: 20px;
-    font-size: 35px;
+    gap: 10px;
+    font-size: 28px;
 }
 
 /* Media Queries */

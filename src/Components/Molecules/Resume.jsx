@@ -10,7 +10,7 @@ import "../../styles/Body/Resume.css";
 import Skills from "../Atoms/Skills";
 
 const StyledSummaryIcon = styled(VscVerifiedFilled)`
-  font-size: 30px;
+  font-size: 40px;
   margin: 0 5px 15px 0;
   color: rgb(28, 156, 234);
   @media (max-width: 576px) {

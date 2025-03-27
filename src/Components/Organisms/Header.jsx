@@ -24,8 +24,8 @@ const StyledArrowDown = styled(IoIosArrowDown)`
 const StyledLogin = styled(BiLogIn)`
   position: relative;
   color: white;
-  font-size: 28px;
-  bottom: 4px;
+  font-size: 25px;
+  bottom: 2px;
 `;
 
 function Header({ className }) {

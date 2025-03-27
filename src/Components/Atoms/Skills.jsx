@@ -16,7 +16,7 @@ import "../../styles/Body/works.css";
 import Button from "../Atoms/Button";
 
 const StyledSkillsIcon = styled(GrAchievement)`
-  font-size: 50px;
+  font-size: 45px;
   position: relative;
   bottom: 8px;
   margin: 0 15px 15px 0;

@@ -6,15 +6,15 @@ import Body_Menus from "../Molecules/Body_Menus.jsx";
 
 
 const StyledStaticContent = styled.div`
-    /* width: 65%; */
+    /* width: 58%; */
     border-radius: 30px;
-    margin: 350px 20px 150px 20px;
+    margin: 350px 15px 80px 15px;
     background-color: white;
     @media (max-width: 576px) {
-        margin: 0px 20px 150px 20px;
+        margin: 0px 20px 100px 20px;
     }
     @media only screen and (min-width: 768px) and (max-width: 992px) {
-        width: fit-content;
+        width: 100%;
     }
 `;
 
@@ -31,15 +31,14 @@ function Portfolio ({ children }) {
     return (
         <>
           <Section>
-              <SideBar_Personal_Info className="" />
+              <SideBar_Personal_Info className="col-xl-3 col-lg-3 col-md-3 col-sm-12" />
             
-              {/* Constant Content for Portfolio Page */}
-              <StyledStaticContent className="">
-                  { children }
-              </StyledStaticContent>
+                {/* Constant Content for Portfolio Page */}
+                <StyledStaticContent className="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                    { children }
+                </StyledStaticContent>
 
-              <Body_Menus className="desktop order-2"/>
-
+                <Body_Menus className="desktop col-xl-1 col-lg-1 col-md-1 col-sm-12"/>
           </Section>
         </>
     );

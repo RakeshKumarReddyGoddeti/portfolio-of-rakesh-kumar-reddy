@@ -1,10 +1,10 @@
 .Resume_Page {
-    padding: 50px 80px;
+    padding: 30px 40px;
 }
 
 .Resume_Page h1 {
     font-family: "Roboto Slab", serif;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 600;
     margin: 25px auto;
 }
@@ -12,7 +12,7 @@
 .Resume_Page h1:after {
     content: "";
     position: absolute;
-    margin: 40px 40px;
+    margin: 30px 40px;
     width: 200px;
     height: 5px;
     background-color: #1b74e4;
@@ -22,11 +22,11 @@
 
 .summary{
     width: 100%;
-    margin: 50px 0;
+    margin: 40px 0 0 0;
 }
 
 .summary h2, .education h2, .work_experience h2, .project_work h2 {
-    font-size: 40px;
+    font-size: 35px;
     margin: 20px 0 10px 0;
 }
 
@@ -37,7 +37,7 @@
     line-height: 1.7;
     border-radius: 25px;
     padding: 15px 30px;
-    margin: 20px 50px 30px 0;
+    margin: 20px 20px 30px 0;
     background-color: #f1e6fb;
 }
 
@@ -46,7 +46,7 @@
 .graduation {
     border-radius: 25px;
     padding: 30px 20px 20px 20px;
-    margin: 20px 50px 50px 0;
+    margin: 0 20px 30px 0;
     background-color: #eef5fa;
 }
 
@@ -54,7 +54,7 @@
     list-style-type: disc;
     line-height: 1.7;
     margin-bottom: 25px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     border-bottom: 1px solid rgb(39, 38, 38);
 }
 
@@ -82,13 +82,12 @@
 
 .work_experience {
     width: 100%;
-    margin: 50px 0;
 }
 
 .work_experience .experience {
     border-radius: 25px;
     padding: 30px 20px 20px 35px;
-    margin: 20px 50px 50px 0;
+    margin: 0 20px 30px 0;
     background-color: #eef5fa;
 }
 
@@ -108,6 +107,11 @@
 
 .work_experience .experience ul {
     padding: 0 0 5px 25px;
+    margin: 20px 0 0 0;
+}
+
+.work_experience .experience ul li p {
+    line-height: 1.7;
 }
 
 /* Project Work */
@@ -119,7 +123,7 @@
 .project_work .project {
     border-radius: 25px;
     padding: 30px 20px 20px 35px;
-    margin: 20px 50px 50px 0;
+    margin: 0 20px 30px 0;
     background-color: #eef5fa;
 }
 
@@ -132,6 +136,10 @@
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 20px;
+}
+
+.project_work .project ul {
+    margin: 0;
 }
 
 .project_work .project li {
@@ -154,26 +162,35 @@
     font-size: 3.5rem;
 }
 
+.Resume_Page .works_column {
+   margin-right: 20px;
+}
+
 .Resume_Page .works_column h2 {
     margin-top: 0;
     font-size: 40px;
 }
 
 .Resume_Page .works_column h2 span svg {
-    font-size: 45px;
+    font-size: 40px;
     margin: 0 15px 10px 0;
 }
 
 .Resume_Page .works_column ol {
-    margin-top: 0;
+    margin-top: -10px;
+    margin-bottom: 0;
+}
+
+.Resume_Page .works_column ol li{
+    padding: 20px 10px 10px 10px;
 }
 
 .Resume_Page .works_column button .skill_range {
-    margin-bottom: 5px;
+    margin-bottom: 0;
 }
 
 .Resume_Page .works_column h3 {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 /* Certifications */
@@ -184,19 +201,20 @@
 }
 
 .certifications h2 span svg {
-    font-size: 60px;
+    font-size: 50px;
     margin: 0 5px 20px 0;
 }
 
 .certificate {
     border-radius: 25px;
     padding: 30px 20px 20px 35px;
-    margin: 20px 50px 50px 0;
+    margin: 0 20px 30px 0;
     background-color: #eef5fa;
 }
 
 .certificate ul {
     margin-top: 0;
+    margin-bottom: -10px;
 }
 
 .certificate ul p {

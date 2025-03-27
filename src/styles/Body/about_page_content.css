@@ -1,5 +1,5 @@
 .about-page-content {
-    padding: 50px 80px;
+    padding: 30px 40px;
     /* border: 3px solid red; */
 }
 
@@ -13,7 +13,7 @@
 
 .about-page-content h1 {
     font-family: "Roboto Slab", serif;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 600;
     margin: 25px auto;
 }
@@ -21,7 +21,7 @@
 .about-page-content h1:after {
     content: "";
     position: absolute;
-    margin: 40px 40px;
+    margin: 30px 40px;
     width: 200px;
     height: 5px;
     background-color: #1b74e4;
@@ -30,29 +30,30 @@
 }
 
 .about-page-content > p {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 400;
     color: #44566c;
-    line-height: 1.7;
-    margin: 20px 50px 30px 0;
+    line-height: 1.6;
+    margin: 20px 20px 30px 0;
 }
 
 /* What I do! */
 
 h2.main_heading {
-    font-size: 40px;
-    margin-bottom: 20px;
+    font-size: 35px;
+    margin-bottom: 10px;
 }
 
 .row > * {
-    padding: 20px 15px;
+    padding: 20px 10px;
     line-height: 1.7;
 }
 
 .ReactJS, .Bootstrap, .TailwindCSS, .Git, .Drupal10 {
     display: flex;
-    gap: 20px;
-    padding: 25px;
+    gap: 15px;
+    height: 100%;
+    padding: 10px 15px 20px 15px;
     color: #44566c;
     border-radius: 20px;
     background-color: #eef5fa;
@@ -61,8 +62,9 @@ h2.main_heading {
 
 .jQuery, .JavaScript, .SASS, .CoreJava {
     display: flex;
-    gap: 20px;
-    padding: 25px;
+    gap: 10px;
+    height: 100%;
+    padding: 10px 15px 20px 15px;
     color: #44566c;
     border-radius: 20px;
     background-color: #fff4f4;
@@ -72,6 +74,11 @@ h2.main_heading {
 .content h2 {
     color: #000;
     margin: 10px auto 15px auto;
+}
+
+.content p{
+    font-size: 18px;
+    line-height: 1.6;
 }
 
 /* Media Queries */

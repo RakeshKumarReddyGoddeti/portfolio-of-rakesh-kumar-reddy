@@ -10,33 +10,33 @@ import styled from "styled-components";
 import "../../styles/Body/Body_Menus.css";
 
 const StyledUserIcon = styled(FaRegUser)`
-  font-size: 35px;
+  font-size: 28px;
   color: #44566c;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 `;
 
 const StyledResumeIcon = styled(FiFileText)`
-  font-size: 35px;
+    font-size: 28px;
   color: #44566c;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 `;
 
 const StyledEducationIcon = styled(PiStudentBold)`
-  font-size: 35px;
+    font-size: 28px;
   color: #44566c;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 `;
 
 const StyledWorksIcon = styled(IoBriefcaseOutline)`
-  font-size: 35px;
+    font-size: 28px;
   color: #44566c;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 `;
 
 const StyledContactIcon = styled(TiContacts)`
-  font-size: 35px;
+    font-size: 28px;
   color: #44566c;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 `;
 
 

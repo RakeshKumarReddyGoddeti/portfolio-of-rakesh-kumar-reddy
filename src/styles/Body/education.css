@@ -1,10 +1,11 @@
 .education_section {
-    padding: 50px 20px 50px 80px;
+    /* padding: 50px 20px 50px 80px; */
+    padding: 30px 40px;
 }
 
 .education_section h1 {
     font-family: "Roboto Slab", serif;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 600;
     margin: 25px auto;
 }
@@ -12,7 +13,7 @@
 .education_section h1:after {
     content: "";
     position: absolute;
-    margin: 40px 40px;
+    margin: 30px 40px;
     width: 200px;
     height: 5px;
     background-color: #1b74e4;
@@ -23,13 +24,13 @@
 /* Graduation in Resume */
 
 .education_column {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .graduation_section {
     border-radius: 25px;
     padding: 30px 20px 20px 20px;
-    margin: 20px 50px 50px 0;
+    margin: 10px 20px 30px 0;
     background-color: #eef5fa;
 }
 

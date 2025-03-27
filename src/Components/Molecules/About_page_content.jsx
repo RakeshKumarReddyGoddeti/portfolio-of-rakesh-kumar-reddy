@@ -13,7 +13,7 @@ import "../../styles/Body/about_page_content.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const StyledReactIcon = styled(GrReactjs)`
-  font-size: 4.5rem;
+  font-size: 4rem;
   color: #06b6d4;
   @media (max-width: 576px) {
     font-size: 3.5rem;
@@ -29,7 +29,7 @@ const StyledjQueryIcon = styled(DiJqueryUiLogo)`
 `;
 
 const StyledJavaScriptIcon = styled(TbBrandJavascript)`
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: #f0db4f;
   @media (max-width: 576px) {
     font-size: 3.5rem;
@@ -37,7 +37,7 @@ const StyledJavaScriptIcon = styled(TbBrandJavascript)`
 `;
 
 const StyledBootstrapIcon = styled(FaBootstrap)`
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: #563d7c;
   @media (max-width: 576px) {
     font-size: 3.5rem;
@@ -45,7 +45,7 @@ const StyledBootstrapIcon = styled(FaBootstrap)`
 `;
 
 const StyledTailwindCSSIcon = styled(RiTailwindCssFill)`
-  font-size: 5rem;
+  font-size: 4rem;
   color: oklch(.746 .16 232.661);
   @media (max-width: 576px) {
     font-size: 3.5rem;
@@ -53,7 +53,7 @@ const StyledTailwindCSSIcon = styled(RiTailwindCssFill)`
 `;
 
 const StyledSASSIcon = styled(FaSass)`
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: #CD6799;
   @media (max-width: 576px) {
     font-size: 3.5rem;
@@ -61,7 +61,7 @@ const StyledSASSIcon = styled(FaSass)`
 `;
 
 const StyledGitIcon = styled(FaGitAlt)`
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: #F1502F;
   @media (max-width: 576px) {
     font-size: 3.5rem;
@@ -69,7 +69,7 @@ const StyledGitIcon = styled(FaGitAlt)`
 `;
 
 const StyledDrupal10Icon = styled(FaDrupal)`
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: #066baa;
   @media (max-width: 576px) {
     font-size: 3.5rem;
@@ -77,7 +77,7 @@ const StyledDrupal10Icon = styled(FaDrupal)`
 `;
 
 const StyledCoreJavaIcon = styled(FaJava)`
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: #066baa;
   @media (max-width: 576px) {
     font-size: 3.5rem;
@@ -118,7 +118,7 @@ function About_page_content() {
                               <div className="content">
                                   <h2> React JS </h2>
                                   <p> 
-                                      Expertise in building dynamic web apps with React JS, 
+                                      Expertise in building dynamic web apps, 
                                       utilizing hooks, state management, and component-based 
                                       architecture for efficient code. 
                                   </p>
@@ -216,7 +216,7 @@ function About_page_content() {
                                   <h2> Drupal 10 </h2>
                                   <p> 
                                       Working as a Drupal 10 Frontend developed having experience in Drupal Theming and
-                                      all CMS activities, worked on Twig, Scss, jQuery, JavaScript for Drupal.
+                                      all CMS activities, worked on Twig, Scss, jQuery, JavaScript.
                                   </p>
                                 </div>
                             </div>

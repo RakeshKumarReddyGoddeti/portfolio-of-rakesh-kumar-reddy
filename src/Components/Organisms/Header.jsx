@@ -65,7 +65,7 @@ function Header({ className }) {
               </div>
 
               <div className={`mobile_menu ${click ? "active" : ""}`}>
-                <Body_Menus className="mobile d-block d-xl-none d-lg-none d-md-none"/>
+                <Body_Menus className="mobile d-block d-xl-none d-lg-none d-md-none" onMobileMenuClick={handleClick}/>
               </div>
             </header>
         </>

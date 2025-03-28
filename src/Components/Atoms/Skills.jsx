@@ -41,7 +41,7 @@ const StyledjQueryIcon = styled(DiJqueryUiLogo)`
 
 
 const StyledJavaScriptIcon = styled(TbBrandJavascript)`
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: #f0db4f;
   @media (max-width: 576px) {
     font-size: 3.5rem;
@@ -49,7 +49,7 @@ const StyledJavaScriptIcon = styled(TbBrandJavascript)`
 `;
 
 const StyledBootstrapIcon = styled(FaBootstrap)`
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: #563d7c;
   @media (max-width: 576px) {
     font-size: 3.5rem;
@@ -57,7 +57,7 @@ const StyledBootstrapIcon = styled(FaBootstrap)`
 `;
 
 const StyledTailwindCSSIcon = styled(RiTailwindCssFill)`
-  font-size: 5rem;
+  font-size: 4rem;
   color: oklch(.746 .16 232.661);
   @media (max-width: 576px) {
     font-size: 3.5rem;
@@ -65,7 +65,7 @@ const StyledTailwindCSSIcon = styled(RiTailwindCssFill)`
 `;
 
 const StyledSASSIcon = styled(FaSass)`
-  font-size: 5rem;
+  font-size: 4rem;
   color: #CD6799;
   @media (max-width: 576px) {
     font-size: 3.5rem;
@@ -73,7 +73,7 @@ const StyledSASSIcon = styled(FaSass)`
 `;
 
 const StyledGitIcon = styled(FaGitAlt)`
-  font-size: 5rem;
+  font-size: 4rem;
   color: #F1502F;
   @media (max-width: 576px) {
     font-size: 3.5rem;
@@ -81,7 +81,7 @@ const StyledGitIcon = styled(FaGitAlt)`
 `;
 
 const StyledDrupal10Icon = styled(FaDrupal)`
-  font-size: 5rem;
+  font-size: 4rem;
   color: #066baa;
   @media (max-width: 576px) {
     font-size: 3.5rem;
@@ -89,7 +89,7 @@ const StyledDrupal10Icon = styled(FaDrupal)`
 `;
 
 const StyledCoreJavaIcon = styled(FaJava)`
-  font-size: 5rem;
+  font-size: 4rem;
   color: #066baa;
   @media (max-width: 576px) {
     font-size: 3.5rem;

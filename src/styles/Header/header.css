@@ -100,6 +100,7 @@ header .menu-btn {
 
     header .menu-btn {
         position: relative;
+        right: 15px;
         display: inline-flex;
         width: 40px;
         height: 40px;

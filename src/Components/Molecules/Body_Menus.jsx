@@ -40,15 +40,15 @@ const StyledContactIcon = styled(TiContacts)`
 `;
 
 
-function Body_Menus ({ className }) {
+function Body_Menus ({ className, onMobileMenuClick }) {
     return (
         <>
           <ul className={`Body_Menus ${className}`}>
-            <li> <NavLink to="/home/about"> <span> <StyledUserIcon /> </span> About </NavLink> </li>
-            <li> <NavLink to="/home/resume"> <span> <StyledResumeIcon /> </span> Resume </NavLink> </li>
-            <li> <NavLink to="/home/education"> <span> <StyledEducationIcon /> </span> Education </NavLink> </li>
-            <li> <NavLink to="/home/works"> <span> <StyledWorksIcon /> </span> Works </NavLink> </li>
-            <li> <NavLink to="/home/contact"> <span> <StyledContactIcon /> </span> Contact </NavLink> </li>
+            <li onClick= { () => onMobileMenuClick() } > <NavLink to="/home/about"> <span> <StyledUserIcon /> </span> About </NavLink> </li>
+            <li onClick= { () => onMobileMenuClick() } > <NavLink to="/home/resume"> <span> <StyledResumeIcon /> </span> Resume </NavLink> </li>
+            <li onClick= { () => onMobileMenuClick() } > <NavLink to="/home/education"> <span> <StyledEducationIcon /> </span> Education </NavLink> </li>
+            <li onClick= { () => onMobileMenuClick() } > <NavLink to="/home/works"> <span> <StyledWorksIcon /> </span> Works </NavLink> </li>
+            <li onClick= { () => onMobileMenuClick() } > <NavLink to="/home/contact"> <span> <StyledContactIcon /> </span> Contact </NavLink> </li>
           </ul>
         </>
     );

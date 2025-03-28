@@ -85,13 +85,13 @@ li.list {
     }
     
     .education_section h1 {
-        font-size: 36px;
+        font-size: 32px;
         margin: 20px auto;
     }
     
     .education_section h1:after {
-        margin: 25px 20px;
-        width: 160px;
+        margin: 20px 20px;
+        width: 120px;
     }
 
     .education_section h2 {

@@ -229,13 +229,13 @@
     }
     
     .Resume_Page h1 {
-        font-size: 40px;
+        font-size: 35px;
         margin: 20px auto;
     }
     
     .Resume_Page h1:after {
-        margin: 25px 40px;
-        width: 160px;
+        margin: 22px 40px;
+        width: 120px;
     }
     
     .summary{
@@ -285,12 +285,12 @@
     }
     
     .work_experience .experience {
-        padding: 30px 10px 0 10px;
+        padding: 30px 5px 0 5px;
         margin: 0;
     }
     
     .work_experience .experience .date h3 {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 600;
         margin-bottom: 20px;
     }
@@ -308,7 +308,9 @@
         font-size: 16px;
     }
     
-    
+    .work_experience .experience h4 {
+        font-size: 18px;
+    }
     /* Project Work */
     
     .project_work {
@@ -321,7 +323,7 @@
     }
     
     .project_work .project h3 {
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 20px;
     }
 
@@ -363,7 +365,10 @@
     
     .Resume_Page .works_column ol {
         margin-top: -10px;
-        padding: 0 10px;
+    }
+
+    .Resume_Page .works_column ol li {
+        padding-right: 0;
     }
     
     .Resume_Page .works_column button .skill_range {
@@ -371,7 +376,7 @@
     }
     
     .Resume_Page .works_column h3 {
-        font-size: 25px;
+        font-size: 22px;
     }
     
     /* Certifications */

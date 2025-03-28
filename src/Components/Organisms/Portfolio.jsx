@@ -23,6 +23,7 @@ const Section = styled.div`
     @media (max-width: 576px) {
         flex-direction: column;
         position: absolute;
+        width: -webkit-fill-available;
     }
 `;
 

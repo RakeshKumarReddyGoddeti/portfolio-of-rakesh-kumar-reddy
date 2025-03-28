@@ -147,13 +147,13 @@ form .message input[type="textarea"] {
     }
     
     .contact h1 {
-        font-size: 40px;
+        font-size: 35px;
         margin: 20px auto;
     }
     
     .contact h1:after {
         margin: 25px 40px;
-        width: 120px;
+        width: 90px;
     }
     
     .contact .contact_section {

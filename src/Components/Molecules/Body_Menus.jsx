@@ -34,7 +34,7 @@ const StyledWorksIcon = styled(IoBriefcaseOutline)`
 `;
 
 const StyledContactIcon = styled(TiContacts)`
-    font-size: 28px;
+  font-size: 28px;
   color: #44566c;
   margin-bottom: 5px;
 `;

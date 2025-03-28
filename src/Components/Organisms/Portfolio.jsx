@@ -11,7 +11,7 @@ const StyledStaticContent = styled.div`
     margin: 350px 15px 80px 15px;
     background-color: white;
     @media (max-width: 576px) {
-        margin: 0px 20px 100px 20px;
+        margin: 0px 10px 100px 10px;
     }
     @media only screen and (min-width: 768px) and (max-width: 992px) {
         width: 100%;

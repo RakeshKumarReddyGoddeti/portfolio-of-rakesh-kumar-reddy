@@ -89,7 +89,7 @@ function About_page_content() {
             <div className="about-page-content">
                 <h1> About </h1>
                 <p> 
-                    Experienced Drupal Frontend Developer with over 2+ years of experience in 
+                    Experienced Drupal Frontend Developer with over 2.8+ years of experience in 
                     designing and implementing responsive, user-friendly web interfaces. Proficient 
                     in React JS, jQuery, JavaScript, Bootstrap and modern frontend frameworks such as 
                     Tailwind CSS.

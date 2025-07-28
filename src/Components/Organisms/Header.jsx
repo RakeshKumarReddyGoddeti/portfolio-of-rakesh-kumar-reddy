@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { IoIosArrowDown } from "react-icons/io";
+// import { IoIosArrowDown } from "react-icons/io";
 import { BiLogIn } from "react-icons/bi";
 
 
@@ -14,11 +14,11 @@ import Body_Menus from "../Molecules/Body_Menus.jsx";
 
 
 // Styled component for IoIosArrowDown
-const StyledArrowDown = styled(IoIosArrowDown)`
-  position: relative;
-  bottom: 2px;
-  font-size: 25px;
-`;
+// const StyledArrowDown = styled(IoIosArrowDown)`
+//   position: relative;
+//   bottom: 2px;
+//   font-size: 25px;
+// `;
 
 // Styled component for IoIosArrowDown
 const StyledLogin = styled(BiLogIn)`
@@ -45,12 +45,12 @@ function Header({ className }) {
               </div>
 
               <div className="menus">
-                <NavLink className="navlink">Home <span> <StyledArrowDown /> </span> </NavLink>
+                {/* <NavLink className="navlink">Home <span> <StyledArrowDown /> </span> </NavLink>
                 <NavLink className="navlink">About <span> <StyledArrowDown /> </span> </NavLink>
                 <NavLink className="navlink">Portfolio <span> <StyledArrowDown /> </span> </NavLink>
                 <NavLink className="navlink">Pages <span> <StyledArrowDown /> </span> </NavLink>
-                <NavLink className="navlink">Blog <span> <StyledArrowDown /> </span> </NavLink>
-                <NavLink className="navlink">Contact </NavLink>
+                <NavLink className="navlink">Blog <span> <StyledArrowDown /> </span> </NavLink> */}
+                <NavLink className="navlink" to="/first_project"> Click here to see my 1st initial Project </NavLink>
               </div>
 
               <div className="login">

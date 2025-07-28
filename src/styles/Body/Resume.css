@@ -185,6 +185,10 @@
     padding: 20px 10px 10px 10px;
 }
 
+.works_column ol li{
+    margin: 0;
+}
+
 .Resume_Page .works_column button .skill_range {
     margin-bottom: 0;
 }

@@ -46,6 +46,21 @@ header {
     /* background-color: pink; */
 }
 
+header .menus a.navlink {
+    color: white;
+    background-color: #eb0249;
+    /* background-color: #5046e5; */
+    margin: auto 15px;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+}
+
+header .menus a.navlink:hover {
+    background-color: white;
+    color: #eb0249;
+}
 
 /* Contact me */
 
@@ -209,5 +224,11 @@ header .menu-btn {
 @media only screen and (min-width: 576px) and (max-width: 992px) {
     .menus {
         display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .mobile_menu {
+        margin: 0;
     }
 }

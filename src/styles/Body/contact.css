@@ -51,6 +51,10 @@ form {
     margin-top: 60px;
 }
 
+.contact_section form label {
+    margin: 0;
+}
+
 form .name {
     display: flex;
     flex-direction: column;

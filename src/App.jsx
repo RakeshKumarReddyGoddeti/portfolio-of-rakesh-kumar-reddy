@@ -12,7 +12,7 @@ import Resume from './Components/Molecules/Resume.jsx';
 import Education from './Components/Molecules/Education.jsx';
 import Works from './Components/Molecules/Works.jsx';
 import Contact from './Components/Molecules/Contact.jsx';
-
+import First_Project from './Components/Pages/_First_Project/first_project.jsx';
 
 function App() {
 
@@ -21,6 +21,7 @@ function App() {
       <GlobalStyles />
       <Routes>
         <Route path="/" element={<Navigate to="/home" replace />} />
+        <Route path="/first_project" element={<First_Project />} />
         <Route path="home" element={<Home />}>
           <Route index element={<About_page_content />} />
           <Route path="about" element={<About_page_content />} />

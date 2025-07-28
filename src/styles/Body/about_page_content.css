@@ -49,6 +49,10 @@ h2.main_heading {
     line-height: 1.7;
 }
 
+.section_what_i_do .row .col-lg-6 {
+    margin: 0;
+}
+
 .ReactJS, .Bootstrap, .TailwindCSS, .Git, .Drupal10 {
     display: flex;
     gap: 15px;

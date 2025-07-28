@@ -12,7 +12,7 @@ import Resume from './Components/Molecules/Resume.jsx';
 import Education from './Components/Molecules/Education.jsx';
 import Works from './Components/Molecules/Works.jsx';
 import Contact from './Components/Molecules/Contact.jsx';
-import First_Project from './Components/Pages/_First_Project/first_project.jsx';
+import First_Project from './Components/Pages/First_Project.jsx';
 
 function App() {
 

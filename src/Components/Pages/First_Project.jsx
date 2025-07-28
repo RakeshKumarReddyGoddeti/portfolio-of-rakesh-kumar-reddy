@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import '../../../styles/First_Project_HCL/first_project_styles.css'; // Import your custom styles
+import '../../styles/First_Project_HCL/first_project_styles.css'; // Import your custom styles
 // Remove Bootstrap CSS and JS imports as they should be added in public/index.html
 
 import $ from 'jquery'; // Import jQuery
@@ -1214,4 +1214,4 @@ function First_Project() {
     );
 }
 
-export default First_Project; // Removed parentheses
+export default First_Project;

@@ -1044,7 +1044,7 @@ function First_Project() {
                             
 
                                         <div className="carousel-inner">
-                                        <div className="carousel-item active" data-bs-interval="20000000">
+                                        <div className="carousel-item active" data-bs-interval="2000">
 
                                             <ol>
                                                 <li>
@@ -1086,7 +1086,7 @@ function First_Project() {
 
 
 
-                                        <div className="carousel-item" data-bs-interval="20000000">
+                                        <div className="carousel-item" data-bs-interval="2000">
 
 
                                             <ol>

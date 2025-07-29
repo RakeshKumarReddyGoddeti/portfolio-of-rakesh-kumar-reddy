@@ -1,4 +1,6 @@
 import { useEffect } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '../../styles/First_Project_HCL/first_project_styles.css'; // Import your custom styles
 // Remove Bootstrap CSS and JS imports as they should be added in public/index.html
 
@@ -126,7 +128,7 @@ function First_Project() {
         
         //<--------------carousel-indicator-prev,next icons------->
         
-             $(".corousel").on({
+             $(".carousel").on({
                 mouseenter: function(){
                     $(this).find(".carousel-control-prev-icon, .carousel-control-next-icon").filter(".carousel-control-prev-icon, .carousel-control-next-icon").addClass("corousel_indicator_styles");
                 },
@@ -280,39 +282,39 @@ function First_Project() {
                             <h5>Apps</h5>
                             <ol>
                                 <li>
-                                    <img src="src/Images/first_project_images/outlook.png" alt="no image" />
+                                    <img src="/Images/first_project_images/outlook.png" alt="no image" />
                                     Outlook
                                 </li>
                                 <li>
-                                    <img src="src/Images/first_project_images/onedrive.png" alt="no image" />
+                                    <img src="/Images/first_project_images/onedrive.png" alt="no image" />
                                     OneDrive
                                 </li>
                                 <li>
-                                    <img src="src/Images/first_project_images/word.jfif" alt="no image" />
+                                    <img src="/Images/first_project_images/word.jfif" alt="no image" />
                                     Word
                                 </li>
                                 <li>
-                                    <img src="src/Images/first_project_images/excel.jfif" alt="no image" />
+                                    <img src="/Images/first_project_images/excel.jfif" alt="no image" />
                                     Excel
                                 </li>
                                 <li>
-                                    <img src="src/Images/first_project_images/power_point.jfif" alt="no image" />
+                                    <img src="/Images/first_project_images/power_point.jfif" alt="no image" />
                                     PowerPoint
                                 </li>
                                 <li>
-                                    <img src="src/Images/first_project_images/one_note.jfif" alt="no image" />
+                                    <img src="/Images/first_project_images/one_note.jfif" alt="no image" />
                                     OneNote
                                 </li>
                                 <li>
-                                    <img src="src/Images/first_project_images/share_point.jfif" alt="no image" />
+                                    <img src="/Images/first_project_images/share_point.jfif" alt="no image" />
                                     SharePoint
                                 </li>
                                 <li>
-                                    <img src="src/Images/first_project_images/teams.jfif" alt="no image" />
+                                    <img src="/Images/first_project_images/teams.jfif" alt="no image" />
                                     Teams
                                 </li>
                                 <li>
-                                    <img src="src/Images/first_project_images/engage.jfif" alt="no image" />
+                                    <img src="/Images/first_project_images/engage.jfif" alt="no image" />
                                     Engage
                                 </li>
                             </ol>
@@ -739,18 +741,18 @@ function First_Project() {
                         
                                 <section className="section4" id="sextion4">
                                     <section className="section4_1">
-                                        <div className="corousel" id="corousel">
+                                        {/* <div className="corousel" id="corousel">
                                             <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                                     
                                                 <div className="carousel-inner">
                                                 <div className="carousel-item active" data-bs-interval="2000">
-                                                    <img src="src/Images/first_project_images/corousel_1.png" className="d-block w-100" alt="..." />
+                                                    <img src="/Images/first_project_images/corousel_1.png" className="d-block w-100" alt="..." />
                                                 </div>
                                                 <div className="carousel-item" data-bs-interval="2000">
-                                                    <img src="src/Images/first_project_images/corousel_2.png" className="d-block w-100" alt="..." />
+                                                    <img src="/Images/first_project_images/corousel_2.png" className="d-block w-100" alt="..." />
                                                 </div>
                                                 <div className="carousel-item" data-bs-interval="2000">
-                                                    <img src="src/Images/first_project_images/corousel_3.png" className="d-block w-100" alt="..." />
+                                                    <img src="/Images/first_project_images/corousel_3.png" className="d-block w-100" alt="..." />
                                                 </div>
                                                 </div>
                                                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -776,7 +778,38 @@ function First_Project() {
                                                     </ol>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> */}
+
+
+
+
+
+<div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+  <div className="carousel-inner">
+    <div className="carousel-item active" data-bs-interval="2000">
+    <img src="/Images/first_project_images/corousel_1.png" className="d-block w-100" alt="..." />
+    </div>
+    <div className="carousel-item" data-bs-interval="2000">
+    <img src="/Images/first_project_images/corousel_2.png" className="d-block w-100" alt="..." />
+    </div>
+    <div className="carousel-item" data-bs-interval="2000">
+    <img src="/Images/first_project_images/corousel_3.png" className="d-block w-100" alt="..." />
+    </div>
+  </div>
+  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
+  </button>
+  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
+  </button>
+  <div className="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="button-indicator active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" className="button-indicator"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" className="button-indicator"></button>
+  </div>
+</div>
                             
                             
                             {/* <!--///////////////////////////////////////////////--> */}
@@ -809,7 +842,7 @@ function First_Project() {
                                             </div>
                                             <ol>
                                                 <li>
-                                                    <img src="src/Images/first_project_images/upcoming_events1.png" alt="no image" />
+                                                    <img src="/Images/first_project_images/upcoming_events1.png" alt="no image" />
                                                     <div className="content">
                                                         <p className="bold">Supercharge your moves with Zumba for Kids</p>
                                                         <p>Health and Wellness</p>
@@ -819,7 +852,7 @@ function First_Project() {
                                                     <button>Add to calender</button>
                                                 </li>
                                                 <li>
-                                                    <img src="src/Images/first_project_images/upcoming_events2.png" alt="no image" />
+                                                    <img src="/Images/first_project_images/upcoming_events2.png" alt="no image" />
                                                     <div className="content">
                                                         <p className="bold">Heartfulness Meditation - Supercharge your wellbeing</p>
                                                         <p>Health and Wellness</p>
@@ -829,7 +862,7 @@ function First_Project() {
                                                     <button>Add to calender</button>
                                                 </li>
                                                 <li>
-                                                    <img src="src/Images/first_project_images/upcoming_events3.png" alt="no image" />
+                                                    <img src="/Images/first_project_images/upcoming_events3.png" alt="no image" />
                                                     <div className="content">
                                                         <p className="bold">Ergonomics - Supercharge your Health</p>
                                                         <p>Health and Wellness</p>
@@ -850,7 +883,7 @@ function First_Project() {
                                         <ol>
                                             <li>
                                                 <div className="card">
-                                                    <img src="src/Images/first_project_images/action_required.png" className="card-img-top" alt="..." />
+                                                    <img src="/Images/first_project_images/action_required.png" className="card-img-top" alt="..." />
                                                     <div className="card-body">
                                                         <a>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-hand-index-thumb" viewBox="0 0 16 16">
@@ -980,7 +1013,7 @@ function First_Project() {
                                     <ol>
                                         <li>
                                             <a href="#">
-                                                <img src="src/Images/first_project_images/referrals.png" alt="no image" />
+                                                <img src="/Images/first_project_images/referrals.png" alt="no image" />
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                                                     <path fillRule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
                                                     <path fillRule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
@@ -989,7 +1022,7 @@ function First_Project() {
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <img src="src/Images/first_project_images/get_skilled.png" alt="no image" />
+                                                <img src="/Images/first_project_images/get_skilled.png" alt="no image" />
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                                                     <path fillRule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
                                                     <path fillRule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
@@ -1016,7 +1049,7 @@ function First_Project() {
                                             <ol>
                                                 <li>
                                                     <div className="card">
-                                                        <img src="src/Images/first_project_images/snapshot_1.jpg" className="card-img-top" alt="..." />
+                                                        <img src="/Images/first_project_images/snapshot_1.jpg" className="card-img-top" alt="..." />
                                                         <div className="card-body">
                                                             <p>HCLTechie  Rajeshwar wins silver in the bridge competition at the Asian</p>
                                                         </div>
@@ -1024,7 +1057,7 @@ function First_Project() {
                                                 </li>
                                                 <li>
                                                     <div className="card">
-                                                        <img src="src/Images/first_project_images/snapshot_2.jpg" className="card-img-top" alt="..." />
+                                                        <img src="/Images/first_project_images/snapshot_2.jpg" className="card-img-top" alt="..." />
                                                         <div className="card-body">
                                                             <p>Our chairperson felicitated at the launch of Mission Shakti 4.0 initiative</p>
                                                         </div>
@@ -1032,7 +1065,7 @@ function First_Project() {
                                                 </li>
                                                 <li>
                                                     <div className="card">
-                                                        <img src="src/Images/first_project_images/snapshot_3.jpg" className="card-img-top" alt="..." />
+                                                        <img src="/Images/first_project_images/snapshot_3.jpg" className="card-img-top" alt="..." />
                                                         <div className="card-body">
                                                             <p>HCLTech and Greater Manchester Police win Silver Award at the UK CXA&apos;23</p>
                                                         </div>
@@ -1040,7 +1073,7 @@ function First_Project() {
                                                 </li>
                                                 <li>
                                                     <div className="card">
-                                                        <img src="src/Images/first_project_images/snapshot_4.jpg" className="card-img-top" alt="..." />
+                                                        <img src="/Images/first_project_images/snapshot_4.jpg" className="card-img-top" alt="..." />
                                                         <div className="card-body">
                                                             <p>Sports for Change athletes at the at the Asia Rugby U18 Sevens Championship.</p>
                                                         </div>
@@ -1053,13 +1086,13 @@ function First_Project() {
 
 
 
-                                        <div className="carousel-item" data-bs-interval="200000000">
+                                        <div className="carousel-item" data-bs-interval="20000000">
 
 
                                             <ol>
                                                 <li>
                                                     <div className="card">
-                                                        <img src="src/Images/first_project_images/snapshot_5.jpg" className="card-img-top" alt="..." />
+                                                        <img src="/Images/first_project_images/snapshot_5.jpg" className="card-img-top" alt="..." />
                                                         <div className="card-body">
                                                             <p>Leaders discuss the importance of gender diversity on CNBC TV18.</p>
                                                         </div>
@@ -1067,7 +1100,7 @@ function First_Project() {
                                                 </li>
                                                 <li>
                                                     <div className="card">
-                                                        <img src="src/Images/first_project_images/snapshot_6.png" className="card-img-top" alt="..." />
+                                                        <img src="/Images/first_project_images/snapshot_6.png" className="card-img-top" alt="..." />
                                                         <div className="card-body">
                                                             <p>HCLTech partners with the Design Museum, London.</p>
                                                         </div>
@@ -1075,7 +1108,7 @@ function First_Project() {
                                                 </li>
                                                 <li>
                                                     <div className="card">
-                                                        <img src="src/Images/first_project_images/snapshot_7.png" className="card-img-top" alt="..." />
+                                                        <img src="/Images/first_project_images/snapshot_7.png" className="card-img-top" alt="..." />
                                                         <div className="card-body">
                                                             <p>Editorial Special-Emerging Women Business Leader Award 2022.</p>
                                                         </div>
@@ -1083,7 +1116,7 @@ function First_Project() {
                                                 </li>
                                                 <li>
                                                     <div className="card">
-                                                        <img src="src/Images/first_project_images/snapshot_8.png" className="card-img-top" alt="..." />
+                                                        <img src="/Images/first_project_images/snapshot_8.png" className="card-img-top" alt="..." />
                                                         <div className="card-body">
                                                             <p>HCLTech is the official Digital Technology partner for Cricket Australia.</p>
                                                         </div>
@@ -1105,8 +1138,8 @@ function First_Project() {
                                         </button>
                     
                                         <div className="carousel-indicators">
-                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                         </div>
                                     </div>
                                 </div>
@@ -1118,21 +1151,21 @@ function First_Project() {
                                 <div className="container">
                                     <ol>
                                         <li>
-                                            <img src="src/Images/first_project_images/diversity.png" alt="..." />
+                                            <img src="/Images/first_project_images/diversity.png" alt="..." />
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                                                 <path fillRule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
                                                 <path fillRule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
                                             </svg>
                                         </li>
                                         <li>
-                                            <img src="src/Images/first_project_images/corporate.png" alt="..." />
+                                            <img src="/Images/first_project_images/corporate.png" alt="..." />
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                                                 <path fillRule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
                                                 <path fillRule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
                                             </svg>
                                         </li>
                                         <li>
-                                            <img src="src/Images/first_project_images/diversity.png" alt="..." />
+                                            <img src="/Images/first_project_images/diversity.png" alt="..." />
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                                                 <path fillRule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
                                                 <path fillRule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
@@ -1140,7 +1173,7 @@ function First_Project() {
                                         </li>
                                         <li>
                                             <div className="image_container">
-                                                <img src="src/Images/first_project_images/trends.png" alt="..." />
+                                                <img src="/Images/first_project_images/trends.png" alt="..." />
                                                 <button>Trends and Insights</button>
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                                                     <path fillRule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
@@ -1150,7 +1183,7 @@ function First_Project() {
                                         </li>
                                         <li>
                                             <div className="image_container">
-                                                <img src="src/Images/first_project_images/case.png" alt="..." />
+                                                <img src="/Images/first_project_images/case.png" alt="..." />
                                                 <button>Case Studies</button>
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                                                     <path fillRule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
@@ -1160,7 +1193,7 @@ function First_Project() {
                                         </li>
                                         <li>
                                             <div className="image_container">
-                                                <img src="src/Images/first_project_images/external.png" alt="..." />
+                                                <img src="/Images/first_project_images/external.png" alt="..." />
                                                 <button>External Events and Webinars</button>
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                                                     <path fillRule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>

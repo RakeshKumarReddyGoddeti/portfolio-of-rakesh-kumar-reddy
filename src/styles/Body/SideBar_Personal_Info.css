@@ -114,6 +114,10 @@
     border-bottom: none;
 }
 
+.main_personal_contact .text {
+    margin: 0;
+}
+
 .icons {
     font-size: 32px;
     border-radius: 15px;

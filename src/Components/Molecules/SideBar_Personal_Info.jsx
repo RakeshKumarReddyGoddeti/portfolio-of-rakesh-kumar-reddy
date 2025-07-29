@@ -8,7 +8,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { MdWork } from "react-icons/md";
 import { PiDownloadBold } from "react-icons/pi";
 
-import about_rakesh_photo from "../../Images/about_rakesh.jpg";
+import about_rakesh_photo from "/Images/about_rakesh.jpg";
 import Button from "../Atoms/Button";
 
 import styled from "styled-components";

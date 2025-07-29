@@ -49,6 +49,7 @@ function Body_Menus ({ className, onMobileMenuClick }) {
             <li onClick= { () => onMobileMenuClick() } > <NavLink to="/home/education"> <span> <StyledEducationIcon /> </span> Education </NavLink> </li>
             <li onClick= { () => onMobileMenuClick() } > <NavLink to="/home/works"> <span> <StyledWorksIcon /> </span> Works </NavLink> </li>
             <li onClick= { () => onMobileMenuClick() } > <NavLink to="/home/contact"> <span> <StyledContactIcon /> </span> Contact </NavLink> </li>
+            <li onClick= { () => onMobileMenuClick() } > <NavLink className="mobile-firstProject-navlink" to="/first_project" target="_blank"> Click here to see my 1st initial Project </NavLink> </li>
           </ul>
         </>
     );

@@ -99,6 +99,7 @@
 .work_experience .experience h3 {
     font-size: 32px;
     margin-bottom: 20px;
+    margin-left: 0;
 }
 
 .work_experience .experience h4 {
@@ -136,6 +137,7 @@
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 20px;
+    margin-left: 0px;
 }
 
 .project_work .project ul {

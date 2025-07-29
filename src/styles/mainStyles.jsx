@@ -1,7 +1,7 @@
 import './Header/header.css';
 import "./ImageStyles/profile_photo.css";
 import { createGlobalStyle } from 'styled-components';
-import backgroundImage from '../Images/body_background_image.jpg'; // Import the image
+import backgroundImage from '/Images/body_background_image.jpg'; // Import the image
 
 
 <>

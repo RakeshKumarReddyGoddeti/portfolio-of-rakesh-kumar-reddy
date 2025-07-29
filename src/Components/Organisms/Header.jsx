@@ -50,7 +50,7 @@ function Header({ className }) {
                 <NavLink className="navlink">Portfolio <span> <StyledArrowDown /> </span> </NavLink>
                 <NavLink className="navlink">Pages <span> <StyledArrowDown /> </span> </NavLink>
                 <NavLink className="navlink">Blog <span> <StyledArrowDown /> </span> </NavLink> */}
-                <NavLink className="navlink" to="/first_project"> Click here to see my 1st initial Project </NavLink>
+                <NavLink className="navlink" to="/first_project" target="_blank"> Click here to see my 1st initial Project </NavLink>
               </div>
 
               <div className="login">

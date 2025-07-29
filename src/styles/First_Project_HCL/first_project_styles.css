@@ -26,7 +26,7 @@
 }
 .search_bar ol li .menu {
   padding: 12px 0px 11px 16px;
-  width: 50px;
+  width: 58px;
   height: 50px;
 }
 .search_bar ol li .menu:hover {
@@ -125,6 +125,10 @@
   font-weight: 500;
   font-size: 15px;
   color: #006CBF;
+}
+
+.navigation_anchor_tags a svg {
+  margin-left: 3px;
 }
 .menu_content .apps_content {
   position: relative;
@@ -536,27 +540,28 @@
   height: 330px;
   border-radius: 15px;
 }
-.main .full_content .content .section4 .section4_1 .corousel .carousel-control-prev-icon {
+.section4 .carousel-control-prev-icon {
   display: none;
-  background-color: black;
-  margin-left: 5px;
-  margin-top: 150px;
+  background-color: black !important;
+  margin-left: 5px !important;
+  margin-top: 150px !important;
 }
-.main .full_content .content .section4 .section4_1 .corousel .carousel-control-next-icon {
+.section4 .carousel-control-next-icon {
   display: none;
-  background-color: black;
-  margin-right: 5px;
-  margin-top: 150px;
+  background-color: black !important;
+  margin-right: 5px !important;
+  margin-top: 150px !important;
 }
-.main .full_content .content .section4 .section4_1 .corousel .carousel-indicators {
-  position: relative;
-  z-index: -1;
+.carousel-indicators {
+  position: relative !important;
+  z-index: 1 !important; /* Changed from -1 to 1 to ensure your styles are applied */
+  display: flex !important;
 }
-.main .full_content .content .section4 .section4_1 .corousel .carousel-indicators ol {
+/* .main .full_content .content .section4 .section4_1 .corousel .carousel-indicators ol {
   display: flex;
   list-style-type: none;
-}
-.main .full_content .content .section4 .section4_1 .corousel .carousel-indicators ol li button {
+} */
+.main .full_content .content .section4 .section4_1 .corousel .carousel-indicators [data-bs-target] {
   width: 13px;
   height: 13px;
   border-radius: 50%;
@@ -565,7 +570,17 @@
   margin: 20px 30px 0px 0px;
   border: 5px solid white;
 }
-.main .full_content .content .section4 .section4_1 .corousel .carousel-indicators .active {
+
+.carousel-indicators [data-bs-target] {
+  width: 13px !important;
+  height: 13px !important;
+  border-radius: 50% !important;
+  border: 1px solid black !important;
+  outline: 1px solid black !important;
+  margin: 20px 30px 0px 0px !important;
+  border: 5px solid white !important;
+}
+.carousel-indicators [data-bs-target].active {
   background-color: #5F1FBE;
 }
 .main .full_content .content .section4 .section4_1 .recent_updates {
@@ -579,6 +594,13 @@
 .main .full_content .content .section4 .section4_1 .recent_updates ol li {
   border-bottom: 1px solid rgb(198, 196, 196);
   margin-bottom: 10px;
+}
+.recent_updates h6 {
+  font-size: 1.1rem;
+}
+.recent_updates p {
+  font-size: 14px;
+  margin-left: 2px;
 }
 .main .full_content .content .section4 .section4_1 .upcoming_events {
   display: block;
@@ -626,6 +648,7 @@
   width: 600px;
 }
 .main .full_content .content .section4 .section4_1 .upcoming_events ol li .content p {
+  font-size: 16px;
   line-height: 8px;
   margin: 10px 0px 8px 5px;
 }
@@ -782,7 +805,7 @@
 }
 .main .full_content .content .section4 .section4_2 ol li p {
   line-height: 18px;
-  padding: 5px 0px 0px 0px;
+  padding: 5px 0px 8px 0px;
   font-size: 14px;
 }
 .main .full_content .content .section4 .section4_2 ol li button:hover {
@@ -855,7 +878,7 @@
   margin: 0px 18px 0px 0px;
 }
 .main .full_content .content .section6 .corousel .carousel-inner ol li .card {
-  height: auto;
+  height: 100%;
   overflow: hidden;
   font-size: 14px;
   border-radius: 5px;
@@ -863,23 +886,28 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
+.section6 .carousel-item .card{
+  display: flex !important;
+  align-items: stretch;
+}
 .main .full_content .content .section6 .corousel .carousel-inner ol li .card img {
   height: 180px;
 }
 .main .full_content .content .section6 .corousel .carousel-inner ol li .card p {
   padding-top: -5px;
+  font-size: 14px;
 }
-.main .full_content .content .section6 .corousel .carousel-control-prev-icon {
+.section6 .carousel-control-prev-icon {
   display: none;
-  background-color: black;
-  margin-left: 0px;
-  margin-top: 90px;
+  background-color: black  !important;
+  margin-left: 0px  !important;
+  margin-top: 90px  !important;
 }
-.main .full_content .content .section6 .corousel .carousel-control-next-icon {
+.section6 .carousel-control-next-icon {
   display: none;
-  background-color: black;
-  margin-right: 8px;
-  margin-top: 90px;
+  background-color: black !important;
+  margin-right: 8px !important;
+  margin-top: 90px !important;
 }
 .main .full_content .content .section6 .corousel .carousel-indicators {
   position: relative;
@@ -990,6 +1018,11 @@
 }
 .favourites_style svg {
   color: white !important;
+}
+.favourites li p {
+  margin-left: 0;
+  margin-bottom: 1rem;
+  letter-spacing: 0;
 }
 
 .corousel_indicator_styles {

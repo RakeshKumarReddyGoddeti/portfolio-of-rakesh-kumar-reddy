@@ -86,7 +86,7 @@ function SideBar_Personal_Info({ className }) {
 
             </div>
 
-            <a className="download_cv" href="/public/Rakesh_Kumar_Reddy_Resume.pdf" download="Rakesh_Kumar_Reddy_Resume.pdf" target="_blank">
+            <a className="download_cv" href="/Rakesh_Kumar_Reddy_Resume.pdf" download="Rakesh_Kumar_Reddy_Resume.pdf" target="_blank">
               <span className="download"> <PiDownloadBold /> </span>
               Download CV</a>
           </div>

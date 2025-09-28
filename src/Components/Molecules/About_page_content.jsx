@@ -88,7 +88,23 @@ function About_page_content() {
     return (
             <div className="about-page-content">
                 <h1> About </h1>
-                <p> 
+                <p>
+                  <strong>Frontend Developer</strong> with nearly <strong>3 years</strong> of experience in <strong>HCL Technologies</strong>, building accessible and scalable web 
+                  applications. Specialized in <strong>React JS, Drupal CMS, jQuery, JavaScript, and modern CSS frameworks.</strong> Quick learner with 
+                  Proven track record in Upskilling, collaborate effectively in Agile methodology, and delivering robust applications. 
+                  Passionate about flawless user experience, performance optimization, and solving real-world problems.
+                </p>
+                <p>
+                    Strong understanding of cross-browser compatibility and Accessibility 
+                    improvements. Adept at using version control systems like Git and collaboration tools 
+                    such as JIRA and BitBucket.
+                </p>
+                <p>
+                    Excellent problem-solving abilities and effective communication 
+                    skills, with a proven track record of working collaboratively with development teams and stakeholders 
+                    to deliver high-quality web solutions. 
+                </p>
+                {/* <p> 
                     Experienced Drupal Frontend Developer with over 2.8+ years of experience in 
                     designing and implementing responsive, user-friendly web interfaces. Proficient 
                     in React JS, jQuery, JavaScript, Bootstrap and modern frontend frameworks such as 
@@ -103,7 +119,7 @@ function About_page_content() {
                     Excellent problem-solving abilities and effective communication 
                     skills, with a proven track record of working collaboratively with development teams and stakeholders 
                     to deliver high-quality web solutions. 
-                </p>
+                </p> */}
 
 
                 <div className="section_what_i_do">

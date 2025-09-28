@@ -101,6 +101,16 @@ function Skills() {
         <div className="works_column">
 
                 <h2> <span> <StyledSkillsIcon /> </span> Skills </h2>
+                <ul className="skills-list">
+                  <li><strong>Programming Languages:</strong> JavaScript, Core Java, HTML, CSS, SASS/LESS</li>
+                  <li><strong>Frameworks & Libraries:</strong> React JS, Redux, jQuery, Bootstrap, Tailwind CSS</li>
+                  <li><strong>Tools:</strong> Bitbucket, Jira, SonarQube, Storybook, Gulp, SauceLabs, GitHub Copilot</li>
+                  <li><strong>Methodologies:</strong> Agile (Scrum), WCAG Accessibility Standards</li>
+                  <li><strong>UI/UX:</strong> Responsive Design, Accessibility, Cross-Browser Compatibility</li>
+                  <li><strong>Version Control:</strong> Git, Bitbucket</li>
+                  <li><strong>Others:</strong> Lighthouse, Total Validator, Pattern Lab, Quick Learner, Code Review Practices</li>
+                  <li><strong>CMS:</strong> Drupal 10</li>
+                </ul>
                 <ol className="row">
                     <li className="col-lg-6">
                        <Button className="button_react_js">

@@ -175,6 +175,7 @@ p {
 
 .download_cv {
     display: block;
+    width: fit-content;
     margin: 40px auto;
     font-size: 25px;
     padding: 5px 30px 10px 30px;

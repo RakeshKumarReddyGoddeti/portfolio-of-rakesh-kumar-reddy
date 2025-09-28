@@ -18,6 +18,10 @@
     margin: 25px auto;
 }
 
+.about-page-content p strong {
+    font-weight: 700;
+}
+
 .about-page-content h1:after {
     content: "";
     position: absolute;

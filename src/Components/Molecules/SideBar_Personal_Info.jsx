@@ -80,16 +80,15 @@ function SideBar_Personal_Info({ className }) {
                   <Button className="icons work"> <MdWork /> </Button>
                   <div className="text">
                     <span> Experiance </span>
-                    <p> 2+ Years in Frontend </p>
+                    <p> 3 Years in Frontend </p>
                   </div>
                 </div>
 
             </div>
 
-            <Button className="download_cv">
+            <a className="download_cv" href="/public/Rakesh_Kumar_Reddy_Resume.pdf" download="Rakesh_Kumar_Reddy_Resume.pdf" target="_blank">
               <span className="download"> <PiDownloadBold /> </span>
-              <a href="#" target="_blank"> Download CV </a>
-            </Button>
+              Download CV</a>
           </div>
     );
 }

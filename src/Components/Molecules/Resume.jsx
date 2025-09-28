@@ -1,8 +1,9 @@
 import { VscVerifiedFilled } from "react-icons/vsc";
 import { FaGraduationCap } from "react-icons/fa6";
 import { HiOutlineBriefcase } from "react-icons/hi2";
-import { AiOutlineLaptop } from "react-icons/ai";
+// import { AiOutlineLaptop } from "react-icons/ai";
 import { PiCertificateLight } from "react-icons/pi";
+import { GiAchievement } from 'react-icons/gi';
 
 import styled from "styled-components";
 import "../../styles/Body/Resume.css";
@@ -39,17 +40,26 @@ const StyledWorkIcon = styled(HiOutlineBriefcase)`
   }
 `;
 
-const StyledProjectIcon = styled(AiOutlineLaptop)`
+// const StyledProjectIcon = styled(AiOutlineLaptop)`
+//   font-size: 50px;
+//   margin: 0 5px 25px 0;
+//   color: rgb(28, 156, 234);
+//   @media (max-width: 576px) {
+//     font-size: 40px;
+//     margin: 0 5px 12px 0;
+//   }
+// `;
+
+const StyledCertificateIcon = styled(PiCertificateLight)`
   font-size: 50px;
   margin: 0 5px 25px 0;
   color: rgb(28, 156, 234);
   @media (max-width: 576px) {
     font-size: 40px;
-    margin: 0 5px 12px 0;
   }
 `;
 
-const StyledCertificateIcon = styled(PiCertificateLight)`
+const StyledAchievementIcon = styled(GiAchievement)`
   font-size: 50px;
   margin: 0 5px 25px 0;
   color: rgb(28, 156, 234);
@@ -67,11 +77,17 @@ function Resume () {
               <div className="summary">
                 <h2> <span> <StyledSummaryIcon/> </span> Summary </h2>
                 <p>
+                  <strong>Frontend Developer</strong> with nearly <strong>3 years</strong> of experience in <strong>HCL Technologies</strong>, building accessible and scalable web 
+                  applications. Specialized in <strong>React JS, Drupal CMS, jQuery, JavaScript, and modern CSS frameworks.</strong> Quick learner with 
+                  Proven track record in Upskilling, collaborate effectively in Agile methodology, and delivering robust applications. 
+                  Passionate about flawless user experience, performance optimization, and solving real-world problems.
+                </p>
+                {/* <p>
                   Skilled Front-end Developer with 2+ years of experience in designing, 
                   developing and maintaining front-end web applications. Developed responsive 
                   and accessible user interfaces using advanced Frameworks like React JS, Bootstrap, JavaScript and jQuery.
                   Proven track record in improving website Accessibility according to WCAG standards.
-                </p>
+                </p> */}
               </div>
 
 
@@ -120,24 +136,50 @@ function Resume () {
 
                       <ul>
                         <li>
-                            <p> Developed Drupal-based websites with a single code base. </p>
+                            <p> Developed Drupal-based web applications, focused on single codebase solutions to maximize efficiency and scalability. </p>
                         </li>
                         <li>
                             <p> 
-                              Improved website accessibility from 67% to 94% by implementing accessibility best 
-                              practices and ensuring compliance with WCAG standards.
+                              Boosted website accessibility score from 67% to 97% by implementing WCAG standards and best 
+                              practices, directly improving user experience for diverse audiences.
                             </p>
                         </li>
                         <li>
-                            <p> Followed Agile methodology to manage and deliver project tasks. </p>
+                            <p> Designed and implemented Responsive, high-performance user interfaces using React JS, jQuery, 
+                                JavaScript, Bootstrap, and SASS.
+                            </p>
                         </li>
                         <li>
-                            <p> Utilized Jira and Bitbucket to track progress and manage backlogs. </p>
+                            <p> Utilized SonarQube for automated code quality analysis and Storybook for developing and documenting 
+                                reusable UI components, enhancing code reliability and frontend consistency across projects.
+                            </p>
                         </li>
                         <li>
                             <p> 
-                              Participated in daily stand-ups, sprint planning, and retrospectives to ensure 
-                              effective collaboration and project delivery.
+                              Following Agile methodologies to efficiently manage and deliver project tasks, resulting in improved team 
+                              collaboration and timely completion of deliverables.
+                            </p>
+                        </li>
+                        <li>
+                            <p> 
+                              Leveraged Jira and Bitbucket for effective project tracking, backlog management, and version control.
+                            </p>
+                        </li>
+                        <li>
+                            <p> 
+                               Collaborated cross-functionally with backend developers to seamlessly integrate frontend components 
+                               with Drupal modules, contributing to robust application architecture. 
+                            </p>
+                        </li>
+                        <li>
+                            <p> 
+                              Optimized website performance and ensured cross-browser compatibility for consistent user experiences.
+                            </p>
+                        </li>
+                        <li>
+                            <p> 
+                              Proactively upskilled in emerging technologies and tools, Recognized by peers and management for the 
+                              ability to swiftly learn and implement innovative solutions in dynamic environments.
                             </p>
                         </li>
                       </ul>
@@ -146,7 +188,7 @@ function Resume () {
               </div>
 
 
-              <div className="project_work">
+              {/* <div className="project_work">
                   <h2> <span> <StyledProjectIcon /> </span> Project </h2>
                   <div className="project">
                       <div className="date">
@@ -182,10 +224,33 @@ function Resume () {
                       </ul>
 
                   </div>
-              </div>
+              </div> */}
 
 
               <Skills />
+
+            <div className="certifications">
+                <h2> <span> <StyledAchievementIcon /> </span> Key Achievements </h2>
+
+                <div className="certificate">
+                  <ul>
+                    <li>
+                      <p> Best Performer of the year Award at HCL Technologies, for achieving the highest employee rating over 6 
+                         consecutive quarters ( 2024  – 2025)
+                      </p>
+                    </li>
+                    <li>
+                      <p> React Bronze Medal Award – 2024 </p>
+                    </li>
+                    <li>
+                      <p> Appointed as Frontend Developer in Novartis Dolphin project for developing HCL website </p>
+                    </li>
+                    <li>
+                      <p> Employee of the Year Reward – 2024 </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
 
               <div className="certifications">
@@ -195,7 +260,7 @@ function Resume () {
                   <ul>
                     <li>
                       <h3> React JS </h3>
-                      <p> Certified as React JS developer from HCL Technologies and from UDEMY </p>
+                      <p> Certified as React JS developer from HCL Technologies and from UDEMY, Received Bronze medal.  </p>
                     </li>
                     <li>
                       <h3> JavaScript and jQuery </h3>
@@ -203,7 +268,7 @@ function Resume () {
                     </li>
                     <li>
                       <h3> Core Java </h3>
-                      <p> Certified in Core Java from HCL </p>
+                      <p> Certified in Core Java from HCL Technologies. </p>
                     </li>
                   </ul>
                 </div>
@@ -214,4 +279,4 @@ function Resume () {
     );
 }
 
-export default Resume;
+export default Resume; 

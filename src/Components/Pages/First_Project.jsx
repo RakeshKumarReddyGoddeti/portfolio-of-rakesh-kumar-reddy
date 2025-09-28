@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import '../../styles/First_Project_HCL/first_project_styles.css'; // Import your custom styles
+import '../../styles/First_Project/first_project_styles.css'; // Import your custom styles
 // Remove Bootstrap CSS and JS imports as they should be added in public/index.html
 
 import $ from 'jquery'; // Import jQuery
@@ -387,7 +387,7 @@ function First_Project() {
                                 <section className="section1">
                                     <div className="pageTop" id="pageTop">
                                         <ol>
-                                            <li><img className="hcl_logo" src="https://hclo365.sharepoint.com/sites/MYHCLTech/_api/siteiconmanager/getsitelogo?type=%271%27&hash=638338100989633640" /></li>
+                                            <li><img className="logo" src="#" /></li>
                                             <li><p className="ok">Your Gateway to Supercharging Progress</p></li>
                                         </ol>
                                     </div>
@@ -532,7 +532,7 @@ function First_Project() {
                                                 <div className="triangle-up"></div>
                                                 <ol>
                                                     <li>
-                                                        <h6>MyHCLTech Helpdesk</h6>
+                                                        <h6>Company Helpdesk</h6>
                                                         <a href="#">Support</a>
                                                         <a href="#">Guide</a>
                                                         <a href="#">Provide Feedback</a>
@@ -591,7 +591,7 @@ function First_Project() {
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-umbrella" viewBox="0 0 16 16">
                                                         <path d="M8 0a.5.5 0 0 1 .5.5v.514C12.625 1.238 16 4.22 16 8c0 0 0 .5-.5.5-.149 0-.352-.145-.352-.145l-.004-.004-.025-.023a3.484 3.484 0 0 0-.555-.394A3.166 3.166 0 0 0 13 7.5c-.638 0-1.178.213-1.564.434a3.484 3.484 0 0 0-.555.394l-.025.023-.003.003s-.204.146-.353.146-.352-.145-.352-.145l-.004-.004-.025-.023a3.484 3.484 0 0 0-.555-.394 3.3 3.3 0 0 0-1.064-.39V13.5H8h.5v.039l-.005.083a2.958 2.958 0 0 1-.298 1.102 2.257 2.257 0 0 1-.763.88C7.06 15.851 6.587 16 6 16s-1.061-.148-1.434-.396a2.255 2.255 0 0 1-.763-.88 2.958 2.958 0 0 1-.302-1.185v-.025l-.001-.009v-.003s0-.002.5-.002h-.5V13a.5.5 0 0 1 1 0v.506l.003.044a1.958 1.958 0 0 0 .195.726c.095.191.23.367.423.495.19.127.466.229.879.229s.689-.102.879-.229c.193-.128.328-.304.424-.495a1.958 1.958 0 0 0 .197-.77V7.544a3.3 3.3 0 0 0-1.064.39 3.482 3.482 0 0 0-.58.417l-.004.004S5.65 8.5 5.5 8.5c-.149 0-.352-.145-.352-.145l-.004-.004a3.482 3.482 0 0 0-.58-.417A3.166 3.166 0 0 0 3 7.5c-.638 0-1.177.213-1.564.434a3.482 3.482 0 0 0-.58.417l-.004.004S.65 8.5.5 8.5C0 8.5 0 8 0 8c0-3.78 3.375-6.762 7.5-6.986V.5A.5.5 0 0 1 8 0zM6.577 2.123c-2.833.5-4.99 2.458-5.474 4.854A4.124 4.124 0 0 1 3 6.5c.806 0 1.48.25 1.962.511a9.706 9.706 0 0 1 .344-2.358c.242-.868.64-1.765 1.271-2.53zm-.615 4.93A4.16 4.16 0 0 1 8 6.5a4.16 4.16 0 0 1 2.038.553 8.688 8.688 0 0 0-.307-2.13C9.434 3.858 8.898 2.83 8 2.117c-.898.712-1.434 1.74-1.731 2.804a8.687 8.687 0 0 0-.307 2.131zm3.46-4.93c.631.765 1.03 1.662 1.272 2.53.233.833.328 1.66.344 2.358A4.14 4.14 0 0 1 13 6.5c.77 0 1.42.23 1.897.477-.484-2.396-2.641-4.355-5.474-4.854z"/>
                                                     </svg>
-                                                    <p>Apply Leaves in HCL</p>
+                                                    <p>Apply Leaves in Company</p>
                                                 </a>
                                             </li>
                                             <li>
@@ -731,7 +731,7 @@ function First_Project() {
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-laptop" viewBox="0 0 16 16">
                                                         <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z"/>
                                                     </svg>
-                                                    <p>MyHCLTech Support</p>
+                                                    <p>Company Support</p>
                                                 </a>
                                             </li>
                                             
@@ -820,15 +820,15 @@ function First_Project() {
                                             <ol>
                                                 <li>
                                                     <h6>&apos;My Dashboard&apos; with dynamic cards</h6>
-                                                    <p>Keep track of your internal HCLTech transactions.</p>
+                                                    <p>Keep track of your internal transactions.</p>
                                                 </li>
                                                 <li>
-                                                    <h6>Dr. Techie now available on MyHCLTech</h6>
-                                                    <p>Access all scheduled maintenance, downtimes and outages directly from MyHCLTech.</p>
+                                                    <h6>Dr. Techie now available on Project</h6>
+                                                    <p>Access all scheduled maintenance, downtimes and outages directly from the Company.</p>
                                                 </li>
                                                 <li>
                                                     <h6>Western digital discount program for US-based employees</h6>
-                                                    <p>Get to know about the benefits under HCLTech’s partnership with Western Digital (WD) for US-based</p>
+                                                    <p>Get to know about the benefits under Company partnership with Western Digital (WD) for US-based</p>
                                                 </li>
                                             </ol>
                                         </div>
@@ -1051,7 +1051,7 @@ function First_Project() {
                                                     <div className="card">
                                                         <img src="/Images/first_project_images/snapshot_1.jpg" className="card-img-top" alt="..." />
                                                         <div className="card-body">
-                                                            <p>HCLTechie  Rajeshwar wins silver in the bridge competition at the Asian</p>
+                                                            <p>Techie  Rajeshwar wins silver in the bridge competition at the Asian</p>
                                                         </div>
                                                     </div>
                                                 </li>
@@ -1067,7 +1067,7 @@ function First_Project() {
                                                     <div className="card">
                                                         <img src="/Images/first_project_images/snapshot_3.jpg" className="card-img-top" alt="..." />
                                                         <div className="card-body">
-                                                            <p>HCLTech and Greater Manchester Police win Silver Award at the UK CXA&apos;23</p>
+                                                            <p>Techie and Greater Manchester Police win Silver Award at the UK CXA&apos;23</p>
                                                         </div>
                                                     </div>
                                                 </li>
@@ -1102,7 +1102,7 @@ function First_Project() {
                                                     <div className="card">
                                                         <img src="/Images/first_project_images/snapshot_6.png" className="card-img-top" alt="..." />
                                                         <div className="card-body">
-                                                            <p>HCLTech partners with the Design Museum, London.</p>
+                                                            <p>Company Tech partners with the Design Museum, London.</p>
                                                         </div>
                                                     </div>
                                                 </li>
@@ -1118,7 +1118,7 @@ function First_Project() {
                                                     <div className="card">
                                                         <img src="/Images/first_project_images/snapshot_8.png" className="card-img-top" alt="..." />
                                                         <div className="card-body">
-                                                            <p>HCLTech is the official Digital Technology partner for Cricket Australia.</p>
+                                                            <p>Company Tech is the official Digital Technology partner for Cricket Australia.</p>
                                                         </div>
                                                     </div>
                                                 </li>
@@ -1209,7 +1209,7 @@ function First_Project() {
                 {/* <!----------------------Footer-------------------> */}
                                 <section className="section8">
                                     <div className="footer" id="footer">
-                                        <h5>Join the HCLTech Community</h5>
+                                        <h5>Join the Project Community</h5>
                                         <a href="#">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-facebook" viewBox="0 0 16 16">
                                                 <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
